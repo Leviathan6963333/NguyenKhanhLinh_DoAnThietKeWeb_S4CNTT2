@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="hhi.css">
+<title>Document</title>
+</head>
+
+<body>
+  
+    <!--//Phần đầu trang-->
+   <div class="container-fluid" >
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="banner-sona.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+   </div>
+
+    <!--//Phần ảnh đầu trang-->
+    <div class="container" >
+      <div class="row">
+        <h2 style= "border: 0cap;" >    TRANG ĐĂNG KÍ XE ĐƯA RƯỚC DÀNH CHO HỌC SINH/SINH VIÊN SONADEZI</h2>
+     </div>
+    </div>
+    
+   
+    
+
+
+    <!--//Phan trang 2 thông tin điền đăng ký xe-->
+    <div id="khung1">
+    <div class="container ">
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Tên học sinh/sinh viên: <b style="color: red;">*</b></span>
+      <input type="text" class="form-control" placeholder="Họ và tên" aria-label="Họ và tên" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Mã học sinh/sinh viên: <b style="color: red;">*</b></span>
+      <input type="text" class="form-control" placeholder="Mã số học sinh/sinh viên" aria-label="Mã số học sinh/sinh viên" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Địa chỉ thường trú hiện tại: <b style="color: red;">*</b></span>
+      <input type="text" class="form-control" placeholder="678, Tổ 3, KP.ABC..." aria-label="678, Tổ 3, KP.ABC..." aria-describedby="basic-addon1">
+    </div>
+  
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Lớp học: <b style="color: red;">*</b></span>
+      <input type="text" class="form-control" placeholder="12/11/10A5.." aria-label="12/11/10A5.." aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Ngày sinh: <b style="color: red;">*</b></span>
+      <input type="date" id="NgayThang" name="NgayThang" style="height: 39.5px; width: 125px;"><br>
+      <!-- <label for="NgayThang">Ngày cấp <b style="color: red;">*</b> :</label> -->
+      <!-- <input type="date" id="NgayThang" name="NgayThang" style="height: 23.5px;"><br> -->
+    </div>
+    
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Gmail: <b style="color: red;">*</b></span>
+      <input type="text" class="form-control" placeholder="Vui lòng Điền địa chỉ Gmail" aria-label="Vui lòng Điền địa chỉ Gmail" aria-describedby="basic-addon1" type="email" name="email">
+      </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Số điện thoại: <b style="color: red;">*</b></span>
+      <input type="text" class="form-control" placeholder="Vui lòng điền SĐT" aria-label="Vui lòng Điền địa chỉ Gmail" aria-describedby="basic-addon1" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    
+      
+
+<!--//chọn-->
+    <div class="input-group mb-3">
+    <label class="visually-hidden" for="autoSizingSelect" > </label>
+    <p style="font-size: smaller; color: rgb(145, 145, 145);"> (Vui lòng chọn tuyến xe):
+    <select class="form-select" id="autoSizingSelect">
+       
+      
+      <optgroup label="Vui lòng chọn tuyến xe để đăng kí"> 
+    
+      <option value="1">Tuyến 1: Công viên 30/4- Cầu Suối Linh Trường Sonadezi - Trường và ngược lại</option>
+      <option value="2">Tuyến 2: Giáo Xứ Phúc Hải – Bệnh Viện 7B PCCC - Ủy Ban Phường An Bình – Chợ Đồi – Bồn Nước - Trường Sonadezi và và ngược lại.</option>
+      <option value="4">Tuyến 3: Ngã Tư Nguyễn Khuyến – Trường Tiểu Học Trảng Dài - Côngan Phường Trảng Dài – Cục Hải Quan - Trường Sonadezi và ngược lại.</option>
+      <option value="5">Tuyến 4: Biên Hòa – Hóa An - Cầu Đồng Nai - Trường Sonadezi và ngược lại</option>
+      <option value="6">Tuyến 5: Khu Công Nghiệp Tam Phước - Bệnh Viện Phổi – Cầu Bà Bướm - Cổng Chào Ấp Giáo Xứ Thiên Bình Trường Sonadezi và ngược lại.</option>
+      <option value="7">Tuyến 6:  An Viễn - VLXD Trườn Giang - Cổng trong KCN Tam Phước - Nag4 3 Thái Lan - Ủy ban P. Tam</option>
+      <option value="8">Tuyến 7: Cổng KDL Vườn Xoài Cũ (UBND Phước Tân- Cây Atm Agribank) - Gần Bệnh Viện Shinmart - Trường Sonadezi và ngược lại.</option>
+      <option value="9">Tuyến 8: Bệnh viện Phổi - Cầu Bà Bướm - Dốc 47 - CỔNG CHÀO ẤP GIÁO XỨ THIÊN BÌNH - TRƯỜNG SONADEZI VÀ NGƯỢC LẠI</option>
+      <option value="10">Tuyến 10: KCN Tam Phước - Trường Sonadezi</option>
+      </optgroup>
+   
+    </select>
+  </p>
+  </div>
+  <!--//Mã xác thực-->
+
+<!--//Nút-->
+    <div class="input-group">
+      <span class="input-group-text" style="height: 100px; margin-bottom: 20px; margin-top: -10px;">Lời nhắn muốn để lại cho chúng tôi </span>
+      <textarea class="form-control" aria-label="With textarea" style="margin-top: -10px; height: 100px;"></textarea>
+    </div>
+
+    <div class="Nutt">
+      <button type="submit" class="btn btn-primary" style="padding: 5px 10px; width: 100px; margin-bottom: 5.5px;" onclick="GuiThanCong()">Gửi</button>
+      </div>
+      <script>
+            function GuiThanCong() {
+                alert("Đã gửi biểu mẫu thành công! Xin cám ơn bạn.");
+             }
+        </script>
+        
+    </div>
+  </div>
+  </div>
+  
+
+
+    <!--//End-->
+    <div class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="z5987128707493_20818154be1bc5b3dd6238a62c9c2d04.jpg" alt="IGC Logo">
+            </div>
+            <div class="contact-info">
+                <h3>TRƯỜNG CAO ĐẲNG CÔNG NGHỆ VÀ QUẢN TRỊ SONADEZI</h3>
+                <p><strong>Địa chỉ:</strong> Số 01, Đường 6A, KCN Biên Hòa II, Đồng Nai.</p>
+                <p><strong>Điện thoại:</strong> 0251.3994.011/012/013</p>
+                <p><strong>Email:</strong> info@sonadezi.edu.vn</p>
+                <p><strong>Ban Bảo vệ Trẻ em:</strong> 0972 777 670</p>
+                <p><a href="#">Chính sách bảo mật thông tin</a></p>
+            </div>
+
+            <div class="social">
+                <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/truongsonadezi" target="_blank"><img src="fb.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/@sonadezicollege" target="_blank"><img src="yt.png" alt="YouTube"></a>
+                    <a href="#"><img src="zl.png" alt="Zalo"></a>
+            </div>
+        </div>
+        <div class="bottom-text">© TẬP ĐOÀN GIÁO DỤC IGC</div>
+    </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
